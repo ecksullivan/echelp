@@ -4,7 +4,9 @@ blueprint: pages
 title: 'Sample Documents'
 parent: 2e44d26f-a454-462d-b5f7-34b5d1591565
 updated_by: ddc4ec98-ea9e-4019-afd2-86067f340d0e
-updated_at: 1638455198
+updated_at: 1638474453
+toc:
+  - drafting
 content:
   -
     type: set

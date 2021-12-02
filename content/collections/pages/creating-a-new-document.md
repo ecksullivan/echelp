@@ -3,8 +3,10 @@ id: 61f84c2c-b396-4b9d-9b6b-3dbb6bff5a90
 blueprint: pages
 title: 'Creating a New Document'
 parent: 2e44d26f-a454-462d-b5f7-34b5d1591565
-updated_by: 5e00f1a0-8b5a-4f1c-8f03-df968d853897
-updated_at: 1638204506
+updated_by: ddc4ec98-ea9e-4019-afd2-86067f340d0e
+updated_at: 1638474438
+toc:
+  - drafting
 content:
   -
     type: ordered_list

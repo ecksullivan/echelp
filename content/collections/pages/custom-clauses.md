@@ -3,8 +3,10 @@ id: 9ab68849-6f04-4e9c-a983-28028bb050c2
 blueprint: pages
 title: 'Custom Clauses'
 parent: 2e44d26f-a454-462d-b5f7-34b5d1591565
-updated_by: 5e00f1a0-8b5a-4f1c-8f03-df968d853897
-updated_at: 1638288104
+updated_by: ddc4ec98-ea9e-4019-afd2-86067f340d0e
+updated_at: 1638474511
+toc:
+  - drafting
 content:
   -
     type: heading
@@ -59,8 +61,20 @@ content:
               -
                 type: text
                 text: 'Insert contact information from your matter'
-          -
-            type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: code_block
+        code_insert: '<br>'
+  -
+    type: set
+    attrs:
+      values:
+        type: wistia_video_embed
+        wistia_video_id: 10fu908j2z
+  -
+    type: paragraph
   -
     type: set
     attrs:
