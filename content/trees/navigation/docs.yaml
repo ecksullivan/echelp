@@ -1,0 +1,65 @@
+tree:
+  -
+    id: 112f5a03-a4dc-4dbf-bb8d-9dccf21ae111
+    title: 'Getting Started'
+    children:
+      -
+        id: 8c1a6c0f-150e-471a-8186-5ddf960eda5e
+        entry: home
+      -
+        id: aa6d0742-ec54-4cc1-8a1f-834eafa3c955
+        entry: a63efb3c-4371-47fb-b1b5-7519e51d4997
+      -
+        id: 537596be-65c3-4b7b-8fe1-730bba1293b3
+        entry: 9b0cb77f-b1fe-4576-87eb-a7ef11205528
+  -
+    id: dac1c23f-23a3-4082-8840-4ba3865b6d05
+    title: 'Transition Guide'
+    children:
+      -
+        id: 062d823e-0d25-4ec0-9571-53012f9caf02
+        entry: ae67067b-5939-41b6-b506-f1069fabb71b
+      -
+        id: efe0e87b-8319-4a4b-aa05-c1a0d37ea7d0
+        entry: 02007a4f-e47b-4692-803b-2d1b6fc66d1d
+  -
+    id: da90ae45-01cd-4e02-be86-226e894b565c
+    title: Drafting
+    children:
+      -
+        id: 8a34f2dc-0623-4c1f-967b-db53c077f84f
+        entry: 4a6c8951-7b61-4a92-990e-355100ee9e1d
+      -
+        id: 248625de-9976-41c0-93af-453d8061f3e4
+        entry: 0c8f18eb-0887-4bc6-b71a-d18ce6b3bead
+        title: Contacts
+      -
+        id: 2a89bd98-dee5-4984-9bed-7e43c74afbbe
+        entry: 2e9ca0f7-3150-4cd2-a1cf-66d49316ad39
+        title: Matters
+      -
+        id: 79692b07-6b22-4a43-8c1e-336d2ce75695
+        entry: 61f84c2c-b396-4b9d-9b6b-3dbb6bff5a90
+        title: Documents
+      -
+        id: b53c28f7-8db4-4cda-8370-47d68a1d0c16
+        entry: 9ab68849-6f04-4e9c-a983-28028bb050c2
+      -
+        id: 76d5e0e0-9a88-4a19-9f21-a589c8ea6e15
+        entry: 51c95d4e-b94a-4413-ab99-5dc72b3fce45
+  -
+    id: 6df00a8d-b246-4ae3-8f87-f80872cf9094
+    title: Legal
+    children:
+      -
+        id: 7230c3bb-0339-4549-b35d-6517c10ccf68
+        entry: 6233e40f-5d15-41c5-8bd6-f1570433809b
+      -
+        id: 2a9f859c-8b99-42ee-816b-98fbb999bcca
+        entry: 0f7f1ebd-3f90-4d4a-a24b-fe9605319580
+      -
+        id: 30b2cc63-c1a8-4289-87c8-7924d282b982
+        entry: c22ff277-6367-454c-9a6d-ff7cdcd9e152
+      -
+        id: 703cfc3d-1c05-4cf1-914a-7c632498865a
+        entry: 6c549b0e-12fc-4fdf-9ea3-cc33684c3217

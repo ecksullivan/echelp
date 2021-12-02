@@ -1,0 +1,74 @@
+<!-- Build Table of Contents if Exists in Page -->
+{{ toc }}
+<table class="min-w-full border-1 border-gray-500 border-2 my-8">
+  <thead>
+    <tr class="text-left bg-gray-500">
+      <th class="py-2 px-2">TABLE OF CONTENTS</th>
+    </tr>
+  </thead>
+  <tbody class="mb-32">
+    <tr>
+      <td class="pt-4"></td>
+    </tr>
+    {{ nav :handle="handle" }}
+    <tr>
+      <td class="px-4"><a href="{{ url }}"><strong>{{ index | add:1 }}:</strong> {{ title }}</a></td>
+    </tr>
+    {{ /nav }}
+    <tr>
+      <td class="pt-4"></td>
+    </tr>
+    </tbody>
+  </table>
+{{ /toc }}
+
+{{ content }}
+
+{{ if type == "text" }}
+    <div class="text ec-primary-content">
+      {{ text }}
+    </div>
+
+  {{ elseif type == "wistia_video_embed" }}
+  <div class="wistia_responsive_padding my-8" style="padding:53.96% 0 0 0;position:relative;">
+    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+      <div class="wistia_embed wistia_async_{{wistia_video_id}} videoFoam=true" style="height:100%;position:relative;width:100%">
+        <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+          <img src="https://fast.wistia.com/embed/medias/{{wistia_video_id}}/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div>
+        </div>
+      </div>
+    </div>
+
+  {{ elseif type == "call_to_action_alert" }}
+
+<div class="rounded-md bg-blue-50 p-4">
+  <div class="flex">
+    <div class="flex-shrink-0">
+      <svg class="h-5 w-5 text-blue-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+      </svg>
+    </div>
+    <div class="ml-3 flex-1 md:flex md:justify-between">
+      <p class="text-sm text-blue-700">
+        {{ blue_alert_text }}
+      </p>
+      <p class="mt-3 text-sm md:mt-0 md:ml-6">
+        <a href="{{ blue_alert_url }}" class="whitespace-nowrap font-medium text-blue-700 hover:text-blue-600">Details <span aria-hidden="true">&rarr;</span></a>
+      </p>
+    </div>
+  </div>
+</div>
+
+{{ elseif type == "doc_list" }}
+<a href="{{ document_selection:url }}">{{ document_type }} {{ document_name }}</a>
+
+
+
+ 
+  {{ elseif type == "hero_image" }}
+    <div class="heroimage">
+      <img src="{{ hero_image }}" alt="{{ caption }}" />
+    </div>
+  {{ /if }}
+
+  {{ /content }}

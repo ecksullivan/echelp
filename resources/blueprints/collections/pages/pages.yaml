@@ -1,0 +1,193 @@
+title: Pages
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: description
+        field:
+          input_type: text
+          type: text
+          instructions: 'Will be displayed right under the title'
+          listable: hidden
+          display: Description
+      -
+        handle: toc
+        field:
+          mode: default
+          display: 'Table of Contents'
+          type: structures
+          icon: structures
+          listable: hidden
+          instructions_position: above
+      -
+        handle: content
+        field:
+          always_show_set_button: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: Content
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          sets:
+            code_block:
+              display: 'Code Block'
+              fields:
+                -
+                  handle: code_insert
+                  field:
+                    restrict: false
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    smartypants: false
+                    antlers: false
+                    display: 'Code Insert'
+                    type: markdown
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                    instructions: 'Add your block of code here such as a Wistia Video'
+            wistia_video_embed:
+              display: 'Wistia Video Embed'
+              fields:
+                -
+                  handle: wistia_video_id
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Wistia Video ID'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+            call_to_action_alert:
+              display: 'Call To Action Alert'
+              fields:
+                -
+                  handle: blue_alert_text
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Blue Alert Text'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: blue_alert_url
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Blue Alert URL'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+            doc_list:
+              display: 'Document List'
+              fields:
+                -
+                  handle: document_type
+                  field:
+                    options:
+                      '<i class="fa-thin fa-file-word"></i>': Word
+                      '<i class="fa-thin fa-file-pdf"></i>': PDF
+                    multiple: false
+                    max_items: 1
+                    clearable: false
+                    searchable: true
+                    taggable: false
+                    push_tags: false
+                    cast_booleans: false
+                    display: 'Document Type'
+                    type: select
+                    icon: select
+                    instructions: 'What type of document is this?'
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: document_name
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Document Name'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: document_selection
+                  field:
+                    mode: list
+                    container: assets
+                    folder: documents
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: 'Document Selection'
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+          container: assets
+      -
+        handle: custom_styles
+        field:
+          antlers: false
+          display: 'Custom Styles'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
