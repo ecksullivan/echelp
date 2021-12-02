@@ -733,18 +733,6 @@ pre code {
 	}
 }
 
-.sr-only {
-	position: absolute !important;
-	width: 1px !important;
-	height: 1px !important;
-	padding: 0 !important;
-	margin: -1px !important;
-	overflow: hidden !important;
-	clip: rect(0, 0, 0, 0) !important;
-	white-space: nowrap !important;
-	border-width: 0 !important;
-}
-
 .m-0 {
 	margin: 0px !important;
 }
@@ -767,16 +755,6 @@ pre code {
 .my-6 {
 	margin-top: 1.5rem !important;
 	margin-bottom: 1.5rem !important;
-}
-
-.-mx-5 {
-	margin-left: -1.25rem !important;
-	margin-right: -1.25rem !important;
-}
-
-.-my-2 {
-	margin-top: -0.5rem !important;
-	margin-bottom: -0.5rem !important;
 }
 
 .mb-32 {
@@ -807,10 +785,6 @@ pre code {
 	margin-top: 0.25rem !important;
 }
 
-.mt-8 {
-	margin-top: 2rem !important;
-}
-
 .flex {
 	display: flex !important;
 }
@@ -835,10 +809,6 @@ pre code {
 	height: 2.5rem !important;
 }
 
-.h-6 {
-	height: 1.5rem !important;
-}
-
 .w-5 {
 	width: 1.25rem !important;
 }
@@ -847,16 +817,8 @@ pre code {
 	width: 100% !important;
 }
 
-.w-6 {
-	width: 1.5rem !important;
-}
-
 .min-w-full {
 	min-width: 100% !important;
-}
-
-.max-w-7xl {
-	max-width: 80rem !important;
 }
 
 .flex-1 {
@@ -879,30 +841,12 @@ pre code {
 	flex-direction: column !important;
 }
 
-.flex-wrap {
-	flex-wrap: wrap !important;
-}
-
 .items-center {
 	align-items: center !important;
 }
 
-.justify-center {
-	justify-content: center !important;
-}
-
 .justify-between {
 	justify-content: space-between !important;
-}
-
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-	--tw-space-x-reverse: 0 !important;
-	margin-right: calc(1.5rem * var(--tw-space-x-reverse)) !important;
-	margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse))) !important;
-}
-
-.overflow-hidden {
-	overflow: hidden !important;
 }
 
 .whitespace-nowrap {
@@ -983,16 +927,6 @@ pre code {
 	padding-right: 1rem !important;
 }
 
-.py-12 {
-	padding-top: 3rem !important;
-	padding-bottom: 3rem !important;
-}
-
-.px-5 {
-	padding-left: 1.25rem !important;
-	padding-right: 1.25rem !important;
-}
-
 .pt-4 {
 	padding-top: 1rem !important;
 }
@@ -1042,11 +976,6 @@ pre code {
 .text-2xl {
 	font-size: 1.5rem !important;
 	line-height: 2rem !important;
-}
-
-.text-base {
-	font-size: 1rem !important;
-	line-height: 1.5rem !important;
 }
 
 .font-medium {
@@ -1112,16 +1041,6 @@ pre code {
 	color: rgba(245, 158, 11, var(--tw-text-opacity)) !important;
 }
 
-.text-gray-500 {
-	--tw-text-opacity: 1 !important;
-	color: rgba(107, 114, 128, var(--tw-text-opacity)) !important;
-}
-
-.text-gray-400 {
-	--tw-text-opacity: 1 !important;
-	color: rgba(156, 163, 175, var(--tw-text-opacity)) !important;
-}
-
 .shadow-md {
 	--tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
 	box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow) !important;
@@ -1147,16 +1066,6 @@ pre code {
 	color: rgba(245, 158, 11, var(--tw-text-opacity)) !important;
 }
 
-.hover\:text-gray-900:hover {
-	--tw-text-opacity: 1 !important;
-	color: rgba(17, 24, 39, var(--tw-text-opacity)) !important;
-}
-
-.hover\:text-gray-500:hover {
-	--tw-text-opacity: 1 !important;
-	color: rgba(107, 114, 128, var(--tw-text-opacity)) !important;
-}
-
 .focus\:font-semibold:focus {
 	font-weight: 600 !important;
 }
@@ -1164,14 +1073,6 @@ pre code {
 .focus\:outline-none:focus {
 	outline: 2px solid transparent !important;
 	outline-offset: 2px !important;
-}
-
-@media (min-width: 640px) {
-
-	.sm\:px-6 {
-		padding-left: 1.5rem !important;
-		padding-right: 1.5rem !important;
-	}
 }
 
 @media (min-width: 768px) {
@@ -1230,14 +1131,6 @@ pre code {
 
 	.md\:p-0 {
 		padding: 0px !important;
-	}
-}
-
-@media (min-width: 1024px) {
-
-	.lg\:px-8 {
-		padding-left: 2rem !important;
-		padding-right: 2rem !important;
 	}
 }
 
