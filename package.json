@@ -20,6 +20,8 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
-        "@tailwindcss/typography": "^0.4.1"
+        "@tailwindcss/line-clamp": "^0.2.2",
+        "@tailwindcss/typography": "^0.4.1",
+        "tailwindcss-brand-colors": "^0.3.1"
     }
 }

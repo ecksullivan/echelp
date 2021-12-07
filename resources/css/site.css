@@ -77,6 +77,14 @@ pre code {
   .ec-primary-content ol li li:before {
       content: counters(item, ".") " ";
   }
+
+  footer ul {
+      list-style-type: none;
+      margin: 0;
+  }
+
+
+
   
 
 #search-container {
