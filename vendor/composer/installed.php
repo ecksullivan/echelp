@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '4815eb46d6d527c4b5c74f5124710b0a1df3b482',
         'name' => 'statamic/statamic',
         'dev' => true,
     ),
@@ -1185,12 +1185,12 @@
             'dev_requirement' => false,
         ),
         'statamic/statamic' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '4815eb46d6d527c4b5c74f5124710b0a1df3b482',
             'dev_requirement' => false,
         ),
         'statamic/stringy' => array(
@@ -1545,6 +1545,15 @@
             'install_path' => __DIR__ . '/../ueberdosis/prosemirror-to-html',
             'aliases' => array(),
             'reference' => '7d22a0d213d3f204322a8814eab47ed4ea817f54',
+            'dev_requirement' => false,
+        ),
+        'visuellverstehen/statamic-classify' => array(
+            'pretty_version' => '2.3.1',
+            'version' => '2.3.1.0',
+            'type' => 'statamic-addon',
+            'install_path' => __DIR__ . '/../visuellverstehen/statamic-classify',
+            'aliases' => array(),
+            'reference' => '49a31b87d020d4fda4920d8adf6be0c1ca751681',
             'dev_requirement' => false,
         ),
         'vlucas/phpdotenv' => array(

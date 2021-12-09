@@ -130,6 +130,7 @@ final class Versions
   'tijsverkoyen/css-to-inline-styles' => '2.2.3@b43b05cf43c1b6d849478965062b6ef73e223bb5',
   'ueberdosis/html-to-prosemirror' => '1.5.0@d2de3dbd7d8d891ed595c3b695b5f80d03697af6',
   'ueberdosis/prosemirror-to-html' => '2.7.0@7d22a0d213d3f204322a8814eab47ed4ea817f54',
+  'visuellverstehen/statamic-classify' => '2.3.1@49a31b87d020d4fda4920d8adf6be0c1ca751681',
   'vlucas/phpdotenv' => 'v5.4.0@d4394d044ed69a8f244f3445bcedf8a0d7fe2403',
   'voku/portable-ascii' => '1.5.6@80953678b19901e5165c56752d087fc11526017c',
   'webmozart/assert' => '1.10.0@6964c76c7804814a842473e0c8fd15bab0f18e25',
@@ -176,7 +177,7 @@ final class Versions
   'sebastian/version' => '3.0.2@c6c1022351a901512170118436c764e473f6de8c',
   'symfony/debug' => 'v4.4.31@43ede438d4cb52cd589ae5dc070e9323866ba8e0',
   'theseer/tokenizer' => '1.2.1@34a41e998c2183e22995f158c581e7b5e755ab9e',
-  'statamic/statamic' => '1.0.0+no-version-set@',
+  'statamic/statamic' => 'dev-main@4815eb46d6d527c4b5c74f5124710b0a1df3b482',
 );
 
     private function __construct()

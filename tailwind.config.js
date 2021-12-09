@@ -9,8 +9,14 @@ module.exports = {
   },
   important: true,
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        tnblue: '#1260cc',
+      }, 
+    },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
