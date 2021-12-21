@@ -2,3 +2,7 @@ name: 'Keith Sullivan'
 super: true
 id: ddc4ec98-ea9e-4019-afd2-86067f340d0e
 password_hash: $2y$10$jfESTriWMMdF.4qZFcr69e2hUQsBTlvhBrxvFnFWcwnhtmcRYtqHW
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing

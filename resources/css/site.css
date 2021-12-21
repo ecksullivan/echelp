@@ -99,3 +99,15 @@ pre code {
 
     }
 }
+
+.paragraph {
+    margin-bottom: 15px;
+}
+
+ol {
+    list-style-type: decimal !important;
+    padding-left: 30px;
+}
+ol li {
+    padding-left: 5px;
+}

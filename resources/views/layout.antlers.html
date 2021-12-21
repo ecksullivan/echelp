@@ -7,13 +7,15 @@
         <title>{{ title }} | ElderDocx</title>
         <script src="https://kit.fontawesome.com/64c72f3c4b.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
 
         <style>
             {{ custom_styles }}
         </style>
     </head>
-    <body class="text-gray-900 leading-normal font-sans bg-gray-100">
-        <div id="app">
+    <body class="text-gray-900 leading-normal font-sans bg-gray-100" x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
+        <div id="app" class="flex flex-col h-screen justify-between">
             <header id="header">
                 <div class="container mx-auto flex flex-row items-center justify-between border-b-2 border-gray-200 pr-4 pt-4 pb-4 pl-0 mb-6 ">
                     <a href="/" class="pr-8"><img class="h-10" src="/assets/site/ec2021-1.svg"></a>
@@ -30,7 +32,7 @@
                 </div>
             </header>
         
-            <main class="container mx-auto flex flex-col md:flex-row">
+            <main class="container mx-auto flex flex-col md:flex-row mb-auto">
                 <div class="w-full md:w-1/5">
                     <div class="px-2 mobilesitenav">
                         <button class="w-full bg-gray-200 p-2 rounded-lg mb-2 text-center text-gray-800 font-semibold uppercase md:hidden" onclick="toggleNav()">
@@ -80,6 +82,8 @@
                     </article>
                 </div>
             </main>
+
+            {{ partial:footer/footer }}
         </div>
         <script src="{{ mix src='/js/site.js' }}"></script>
 
@@ -125,25 +129,6 @@
         {{ /content }}
 
         <!-- end new adds -->
-
-
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
-{{ partial:footer/footer }}
 
     </body>
     

@@ -7,14 +7,20 @@
         <title>{{ title }} | ElderDocx</title>
         <script src="https://kit.fontawesome.com/64c72f3c4b.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+        <script src="https://cdn.tailwindcss.com"></script>
 
         <style>
-            {{ custom_styles }}
+            
         </style>
     </head>
     <body>
-        <div id="app">
-          {{ template_content }}
+        <div class="bg-white">
+            <div id="app" class="">
+                {{ partial:navigation/topnavbar }}
+                {{ partial:hero/skinnyhero }}
+                {{ template_content }}
+              </div>
+              {{ partial:footer/footer }}
         </div>
     </body>
     

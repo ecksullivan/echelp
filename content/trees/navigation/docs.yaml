@@ -47,19 +47,3 @@ tree:
       -
         id: 76d5e0e0-9a88-4a19-9f21-a589c8ea6e15
         entry: 51c95d4e-b94a-4413-ab99-5dc72b3fce45
-  -
-    id: 6df00a8d-b246-4ae3-8f87-f80872cf9094
-    title: Legal
-    children:
-      -
-        id: 7230c3bb-0339-4549-b35d-6517c10ccf68
-        entry: 6233e40f-5d15-41c5-8bd6-f1570433809b
-      -
-        id: 2a9f859c-8b99-42ee-816b-98fbb999bcca
-        entry: 0f7f1ebd-3f90-4d4a-a24b-fe9605319580
-      -
-        id: 30b2cc63-c1a8-4289-87c8-7924d282b982
-        entry: c22ff277-6367-454c-9a6d-ff7cdcd9e152
-      -
-        id: 703cfc3d-1c05-4cf1-914a-7c632498865a
-        entry: 6c549b0e-12fc-4fdf-9ea3-cc33684c3217

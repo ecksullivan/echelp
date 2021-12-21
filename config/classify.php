@@ -13,8 +13,9 @@ return [
     */
 
     'default' => [
-        'h1' => 'block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase',
-        'h2' => 'block text-base text-center text-blue-400 font-semibold tracking-wide uppercase',
+        'h1' => 'block text-base text-indigo-600 font-semibold tracking-wide uppercase',
+        'h2' => 'block text-base text-blue-900 tracking-wide uppercase font-semibold text-2xl pb-1',
+        'h3' => 'block text-base text-blue-900 tracking-wide uppercase',
         'a'  => 'link',
         'p' => 'paragraph',
     ],

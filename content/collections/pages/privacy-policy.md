@@ -6,22 +6,20 @@ layout: layoutcontent
 template: contentec
 parent: 4f7ce77d-6cd4-4d24-8189-d530812cff3e
 updated_by: ddc4ec98-ea9e-4019-afd2-86067f340d0e
-updated_at: 1638986523
+updated_at: 1639589923
 content:
   -
     type: paragraph
+    content:
+      -
+        type: text
+        text: 'Last Updated: December 1, 2021'
   -
     type: paragraph
     content:
       -
         type: text
         text: 'The ElderCounsel website (www.eldercounsel.com), drafting software (ElderDocx®, EC TransferCalc™, and products we may develop in the future), Law as a Business, and other related services, including the online ElderCounsel store (collectively, “ElderCounsel Services” or “Services”) are provided by ElderCounsel, LLC and its related companies and affiliates (“ElderCounsel,” “us,” or “we”). ElderCounsel is a membership-based organization featuring a collaborative network of thousands of practitioners throughout all fifty states. This Privacy Policy explains how information is collected, used, and disclosed by ElderCounsel, and applies to information we collect when you use or access ElderCounsel Services or when you otherwise interact with us. We respect the privacy rights of users and recognize the importance of protecting information collected about you. If you use the Services as part of an entity or organization that has an agreement with ElderCounsel (like your employer), or if you enter into an agreement directly with ElderCounsel, the terms of that agreement will control any inconsistency between such an agreement and this Privacy Policy.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
   -
     type: heading
     attrs:
@@ -41,10 +39,6 @@ content:
         text: 'We may change this Privacy Policy from time to time. If we make any changes, we will notify you by revising the “Last Update” date at the top of this Policy. In some cases, we could notify you of changes by email or notice through the ElderCounsel Services. If there are material changes to this Privacy Policy, we will notify you more directly by email or notice through the ElderCounsel Services, prior to the change becoming effective. We encourage you to review our Privacy Policy whenever you access any ElderCounsel Services to stay informed about our information practices and the ways you can help protect your privacy. Your use of any of the ElderCounsel Services after the posting of such changes will constitute your consent to such changes.'
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
   -
     type: paragraph
     content:
@@ -59,109 +53,84 @@ content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
         text: 'You have the following rights with regard to your information (Your Privacy Rights):'
   -
-    type: paragraph
+    type: ordered_list
+    attrs:
+      order: 1
     content:
       -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Minor Eraser Law:\_ Any user who is under the age of eighteen has the right to view, correct, or remove content posted by that user as a registered user of ElderCounsel Services.\_ ElderCounsel does not register users who are below eighteen years of age."
       -
-        type: text
-        text: "1.\_\_\_\_ Minor Eraser Law:\_ Any user who is under the age of eighteen has the right to view, correct, or remove content posted by that user as a registered user of ElderCounsel Services.\_ ElderCounsel does not register users who are below eighteen years of age."
-  -
-    type: paragraph
-    content:
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Right to Be Informed:\_ At or before the point of collection, you have the right to be informed about the categories of personal information that are being collected from you and the purposes for which such categories are being used.\_ This privacy notice intends to set out such information."
       -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Right of Disclosure:\_ You have the right for us to disclose to you the categories and specific pieces of personal information that we have collected from you, the sources of such information, the business purposes for such collection, and the categories of third parties with whom we have shared such personal information.\_ You also have the right to request that we disclose to you a list of categories of personal information that we have disclosed to third parties for their marketing purposes and the identity of those third parties.\_"
       -
-        type: text
-        text: "2.\_\_\_\_ Right to Be Informed:\_ At or before the point of collection, you have the right to be informed about the categories of personal information that are being collected from you and the purposes for which such categories are being used.\_ This privacy notice intends to set out such information."
-  -
-    type: paragraph
-    content:
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Right to Delete:\_ You have the right to request that we delete any personal information collected from or about you. If you exercise this right, we will then also direct any third parties that we have shared your information with to also delete your personal information. If you request that we delete your personal information, you may not be able to participate in certain ElderCounsel Services which may require the use of your personal information to function properly."
       -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Right of Correction:\_ If you believe that any information we have about you is inaccurate or incomplete, you have the right to correct that information."
       -
-        type: text
-        text: "3.\_\_\_\_ Right of Disclosure:\_ You have the right for us to disclose to you the categories and specific pieces of personal information that we have collected from you, the sources of such information, the business purposes for such collection, and the categories of third parties with whom we have shared such personal information.\_ You also have the right to request that we disclose to you a list of categories of personal information that we have disclosed to third parties for their marketing purposes and the identity of those third parties.\_"
-  -
-    type: paragraph
-    content:
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Right to Opt-out of Sale:\_ You have the right to request that we do not sell your personal information.\_ Note that we do not sell your personal information.\_"
       -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Right to Opt-out of Automated Decision-making Technology:\_ You have the right to opt-out of profiling via automated decision-making technology.\_ Note that we do not profile via automated decision-making technology."
       -
-        type: text
-        text: "4.\_\_\_\_ Right to Delete:\_ You have the right to request that we delete any personal information collected from or about you. If you exercise this right, we will then also direct any third parties that we have shared your information with to also delete your personal information. If you request that we delete your personal information, you may not be able to participate in certain ElderCounsel Services which may require the use of your personal information to function properly."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "5.\_\_\_\_ Right of Correction:\_ If you believe that any information we have about you is inaccurate or incomplete, you have the right to correct that information."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "6.\_\_\_\_ Right to Opt-out of Sale:\_ You have the right to request that we do not sell your personal information.\_ Note that we do not sell your personal information.\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "7.\_\_\_\_ Right to Opt-out of Automated Decision-making Technology:\_ You have the right to opt-out of profiling via automated decision-making technology.\_ Note that we do not profile via automated decision-making technology."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "8.\_\_\_\_ Right to Non-discrimination:\_ We cannot discriminate against you if you exercise any of the above rights.\_ We cannot deny you good or services, charge you a different price for goods or services, provide you with a different level of goods or services, or suggest that you will be charged a different price or a different level or quality of goods or services, should you choose to exercise your rights."
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Right to Non-discrimination:\_ We cannot discriminate against you if you exercise any of the above rights.\_ We cannot deny you good or services, charge you a different price for goods or services, provide you with a different level of goods or services, or suggest that you will be charged a different price or a different level or quality of goods or services, should you choose to exercise your rights."
   -
     type: paragraph
     content:

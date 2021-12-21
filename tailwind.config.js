@@ -1,3 +1,4 @@
+const colors = require('tailwindcss/colors')
 module.exports = {
   mode: 'jit',
   purge: {
@@ -7,15 +8,11 @@ module.exports = {
       './content/**/*.md'
     ]
   },
-  important: true,
   theme: {
-    extend: {
-      colors: {
-        tnblue: '#1260cc',
-      }, 
-    },
+
   },
   variants: {},
+
   plugins: [
     require('@tailwindcss/typography'),
   ],

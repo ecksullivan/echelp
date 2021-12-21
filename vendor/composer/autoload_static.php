@@ -38,8 +38,8 @@ class ComposerStaticInitbac148eebba2d42650deacc7dc875074
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-        '8e144857f0908e7c5a12fb79493476b9' => __DIR__ . '/..' . '/statamic/cms/src/helpers.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        '8e144857f0908e7c5a12fb79493476b9' => __DIR__ . '/..' . '/statamic/cms/src/helpers.php',
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
     );
@@ -209,6 +209,7 @@ class ComposerStaticInitbac148eebba2d42650deacc7dc875074
             'Composer\\XdebugHandler\\' => 23,
             'Composer\\Spdx\\' => 14,
             'Composer\\Semver\\' => 16,
+            'Composer\\Pcre\\' => 14,
             'Composer\\MetadataMinifier\\' => 26,
             'Composer\\CaBundle\\' => 18,
             'Composer\\' => 9,
@@ -652,6 +653,10 @@ class ComposerStaticInitbac148eebba2d42650deacc7dc875074
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
+        ),
+        'Composer\\Pcre\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/pcre/src',
         ),
         'Composer\\MetadataMinifier\\' => 
         array (
@@ -1115,6 +1120,14 @@ class ComposerStaticInitbac148eebba2d42650deacc7dc875074
         'Composer\\Package\\Version\\VersionGuesser' => __DIR__ . '/..' . '/composer/composer/src/Composer/Package/Version/VersionGuesser.php',
         'Composer\\Package\\Version\\VersionParser' => __DIR__ . '/..' . '/composer/composer/src/Composer/Package/Version/VersionParser.php',
         'Composer\\Package\\Version\\VersionSelector' => __DIR__ . '/..' . '/composer/composer/src/Composer/Package/Version/VersionSelector.php',
+        'Composer\\Pcre\\MatchAllResult' => __DIR__ . '/..' . '/composer/pcre/src/MatchAllResult.php',
+        'Composer\\Pcre\\MatchAllWithOffsetsResult' => __DIR__ . '/..' . '/composer/pcre/src/MatchAllWithOffsetsResult.php',
+        'Composer\\Pcre\\MatchResult' => __DIR__ . '/..' . '/composer/pcre/src/MatchResult.php',
+        'Composer\\Pcre\\MatchWithOffsetsResult' => __DIR__ . '/..' . '/composer/pcre/src/MatchWithOffsetsResult.php',
+        'Composer\\Pcre\\PcreException' => __DIR__ . '/..' . '/composer/pcre/src/PcreException.php',
+        'Composer\\Pcre\\Preg' => __DIR__ . '/..' . '/composer/pcre/src/Preg.php',
+        'Composer\\Pcre\\Regex' => __DIR__ . '/..' . '/composer/pcre/src/Regex.php',
+        'Composer\\Pcre\\ReplaceResult' => __DIR__ . '/..' . '/composer/pcre/src/ReplaceResult.php',
         'Composer\\Platform\\HhvmDetector' => __DIR__ . '/..' . '/composer/composer/src/Composer/Platform/HhvmDetector.php',
         'Composer\\Platform\\Runtime' => __DIR__ . '/..' . '/composer/composer/src/Composer/Platform/Runtime.php',
         'Composer\\Platform\\Version' => __DIR__ . '/..' . '/composer/composer/src/Composer/Platform/Version.php',
@@ -4993,6 +5006,8 @@ class ComposerStaticInitbac148eebba2d42650deacc7dc875074
         'PhpParser\\Builder\\ClassConst' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/ClassConst.php',
         'PhpParser\\Builder\\Class_' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/Class_.php',
         'PhpParser\\Builder\\Declaration' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/Declaration.php',
+        'PhpParser\\Builder\\EnumCase' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/EnumCase.php',
+        'PhpParser\\Builder\\Enum_' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/Enum_.php',
         'PhpParser\\Builder\\FunctionLike' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/FunctionLike.php',
         'PhpParser\\Builder\\Function_' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/Function_.php',
         'PhpParser\\Builder\\Interface_' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/Interface_.php',
@@ -6035,6 +6050,7 @@ class ComposerStaticInitbac148eebba2d42650deacc7dc875074
         'Statamic\\Console\\Commands\\GeneratorCommand' => __DIR__ . '/..' . '/statamic/cms/src/Console/Commands/GeneratorCommand.php',
         'Statamic\\Console\\Commands\\GlideClear' => __DIR__ . '/..' . '/statamic/cms/src/Console/Commands/GlideClear.php',
         'Statamic\\Console\\Commands\\Install' => __DIR__ . '/..' . '/statamic/cms/src/Console/Commands/Install.php',
+        'Statamic\\Console\\Commands\\LicenseSet' => __DIR__ . '/..' . '/statamic/cms/src/Console/Commands/LicenseSet.php',
         'Statamic\\Console\\Commands\\ListCommand' => __DIR__ . '/..' . '/statamic/cms/src/Console/Commands/ListCommand.php',
         'Statamic\\Console\\Commands\\MakeAction' => __DIR__ . '/..' . '/statamic/cms/src/Console/Commands/MakeAction.php',
         'Statamic\\Console\\Commands\\MakeAddon' => __DIR__ . '/..' . '/statamic/cms/src/Console/Commands/MakeAddon.php',
@@ -6347,6 +6363,7 @@ class ComposerStaticInitbac148eebba2d42650deacc7dc875074
         'Statamic\\Fieldtypes\\Checkboxes' => __DIR__ . '/..' . '/statamic/cms/src/Fieldtypes/Checkboxes.php',
         'Statamic\\Fieldtypes\\Code' => __DIR__ . '/..' . '/statamic/cms/src/Fieldtypes/Code.php',
         'Statamic\\Fieldtypes\\CollectionRoutes' => __DIR__ . '/..' . '/statamic/cms/src/Fieldtypes/CollectionRoutes.php',
+        'Statamic\\Fieldtypes\\CollectionTitleFormats' => __DIR__ . '/..' . '/statamic/cms/src/Fieldtypes/CollectionTitleFormats.php',
         'Statamic\\Fieldtypes\\Collections' => __DIR__ . '/..' . '/statamic/cms/src/Fieldtypes/Collections.php',
         'Statamic\\Fieldtypes\\Color' => __DIR__ . '/..' . '/statamic/cms/src/Fieldtypes/Color.php',
         'Statamic\\Fieldtypes\\Concerns\\ResolvesStatamicUrls' => __DIR__ . '/..' . '/statamic/cms/src/Fieldtypes/Concerns/ResolvesStatamicUrls.php',
